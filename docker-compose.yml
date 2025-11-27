@@ -9,5 +9,6 @@ services:
     environment:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
+      - VITE_YOUTUBE_API_KEY=${VITE_YOUTUBE_API_KEY}
     stdin_open: true
     tty: true
